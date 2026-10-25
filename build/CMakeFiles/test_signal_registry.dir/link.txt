@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/test_signal_registry.dir/tests/test_signal_registry.cpp.o -o test_signal_registry  libgnss_engine.a 

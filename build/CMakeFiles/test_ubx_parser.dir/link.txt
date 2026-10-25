@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/test_ubx_parser.dir/tests/test_ubx_parser.cpp.o -o test_ubx_parser  libgnss_engine.a 

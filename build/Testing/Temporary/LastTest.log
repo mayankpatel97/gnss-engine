@@ -1,0 +1,111 @@
+Start testing: Oct 25 23:10 IST
+----------------------------------------------------------
+1/4 Testing: test_ubx_parser
+1/4 Test: test_ubx_parser
+Command: "/home/mayank/Mayank/gnss-engine/build/test_ubx_parser"
+Directory: /home/mayank/Mayank/gnss-engine/build
+"test_ubx_parser" start time: Oct 25 23:10 IST
+Output:
+----------------------------------------------------------
+=== UBX Parser Unit Tests ===
+
+Testing UBX checksum validation...
+  Checksum validation: PASSED
+Testing UBX checksum calculation...
+  Checksum calculation: PASSED
+Testing sync byte detection...
+  Sync detection: PASSED
+Testing truncated message handling...
+  Truncated message handling: PASSED
+Testing multiple concatenated messages...
+  Multiple messages: PASSED
+
+All tests PASSED!
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Passed.
+"test_ubx_parser" end time: Oct 25 23:10 IST
+"test_ubx_parser" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/4 Testing: test_rawx
+2/4 Test: test_rawx
+Command: "/home/mayank/Mayank/gnss-engine/build/test_rawx"
+Directory: /home/mayank/Mayank/gnss-engine/build
+"test_rawx" start time: Oct 25 23:10 IST
+Output:
+----------------------------------------------------------
+=== RAWX Decoder Unit Tests ===
+
+Testing RAWX decoder with invalid payload...
+  Invalid payload handling: PASSED
+Testing RAWX decoder with zero measurements...
+  Zero measurements: PASSED
+Testing RAWX decoder with week 0 (invalid)...
+  Week 0 rejection: PASSED
+
+All tests PASSED!
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"test_rawx" end time: Oct 25 23:10 IST
+"test_rawx" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/4 Testing: test_sfrbx
+3/4 Test: test_sfrbx
+Command: "/home/mayank/Mayank/gnss-engine/build/test_sfrbx"
+Directory: /home/mayank/Mayank/gnss-engine/build
+"test_sfrbx" start time: Oct 25 23:10 IST
+Output:
+----------------------------------------------------------
+=== SFRBX Decoder Unit Tests ===
+
+Testing SFRBX decoder with invalid payload...
+  Invalid payload handling: PASSED
+Testing SFRBX decoder with GPS subframe...
+  GPS subframe decoding: PASSED
+Testing SFRBX decoder with unknown constellation...
+  Unknown constellation rejection: PASSED
+
+All tests PASSED!
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"test_sfrbx" end time: Oct 25 23:10 IST
+"test_sfrbx" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/4 Testing: test_signal_registry
+4/4 Test: test_signal_registry
+Command: "/home/mayank/Mayank/gnss-engine/build/test_signal_registry"
+Directory: /home/mayank/Mayank/gnss-engine/build
+"test_signal_registry" start time: Oct 25 23:10 IST
+Output:
+----------------------------------------------------------
+=== Signal Registry Unit Tests ===
+
+Testing GPS L1 C/A signal...
+  GPS L1 C/A: PASSED
+Testing Galileo E1 signal...
+  Galileo E1: PASSED
+Testing GLONASS FDMA signals...
+  GLONASS FDMA: PASSED
+Testing unknown signal...
+  Unknown signal handling: PASSED
+Testing BeiDou B1I signal...
+  BeiDou B1I: PASSED
+
+All tests PASSED!
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"test_signal_registry" end time: Oct 25 23:10 IST
+"test_signal_registry" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Oct 25 23:10 IST

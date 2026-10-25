@@ -1,0 +1,5 @@
+test_ubx_parser 1 0.0607022
+test_rawx 1 0.0322779
+test_sfrbx 1 0.022595
+test_signal_registry 1 0.047126
+---

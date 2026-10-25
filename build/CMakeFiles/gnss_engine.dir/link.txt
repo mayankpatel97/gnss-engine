@@ -1,0 +1,2 @@
+/usr/bin/ar qc libgnss_engine.a CMakeFiles/gnss_engine.dir/src/ubx/ubx_parser.cpp.o CMakeFiles/gnss_engine.dir/src/ubx/rawx_decoder.cpp.o CMakeFiles/gnss_engine.dir/src/ubx/sfrbx_decoder.cpp.o CMakeFiles/gnss_engine.dir/src/ubx/nav_pvt_decoder.cpp.o CMakeFiles/gnss_engine.dir/src/gnss/signal_registry.cpp.o CMakeFiles/gnss_engine.dir/src/gnss/observation.cpp.o CMakeFiles/gnss_engine.dir/src/gnss/diagnostics.cpp.o
+/usr/bin/ranlib libgnss_engine.a
